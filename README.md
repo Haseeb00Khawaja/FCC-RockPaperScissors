@@ -92,8 +92,8 @@ def detect_abbey_pattern(my_history, opponent_history):
     if len(my_history) < 11:
         return False
     counters = {"R": "P", "P": "S", "S": "R"}
-    counter_count = sum(1 for i in range(-11, -1)  
-                        if opponent_history[i] == counters.get(my_history[i+1], ""))
+    counter_count = sum(1 for i in range(-10, 0)  
+                        if opponent_history[i] == counters.get(my_history[i], ""))
     return counter_count / 10 >= 0.7
 
 player(prev_play)
