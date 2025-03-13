@@ -8,7 +8,7 @@ This project is an AI bot that plays Rock, Paper, Scissors against four differen
 
 Objective
 
-The AI must identify and adapt to different opponent strategies and maximize its win rate. The key challenge is defeating adaptive opponents like Abbey, who counter the player's patterns using a Markov chain strategy.
+The AI must recognize and adapt to different opponent strategies to maximize its win rate. The main challenge is defeating adaptive opponents like Abbey, who use a Markov chain strategy to counter the player's patterns.
 
 Opponents and Their Strategies
 
